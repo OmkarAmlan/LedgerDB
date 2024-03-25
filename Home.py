@@ -25,6 +25,7 @@ cur.execute('''
 con.commit()
 
 st.set_page_config(
+    page_title="LedgerDB",
     page_title=None,
     page_icon=None,
     layout="wide",
